@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca");
 /*RESET CSS Start*/
 
 /* Box sizing rules */
@@ -74,4 +75,53 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 /*RESET CSS End*/
+.flex-container {
+  display: flex;
+  margin: 10rem;
+  font-family: Lexend Deca;
+  font-size: 15px;
+}
+h2 {
+  color: hsl(0, 0%, 95%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75)
+}
+.left {
+  background-color: #e28525;
+  padding: 2rem;
+}
+.middle {
+  background-color: #016972;
+  padding: 2rem;
+}
+.right {
+  background-color:#00403f;
+  padding: 2rem;
+}
+.button1 {
+  background-color: white;
+  color: #e28525;
+  border-radius: 16px;
+  text-align: center;
+}
+.button2 {
+  background-color: white;
+  color: #016972;
+  border-radius: 16px;
+  text-align: center;
+}
+.button3 {
+  background-color: white;
+  color: #00403f;
+  border-radius: 16px;
+  text-align: center;
+}
