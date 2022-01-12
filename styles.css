@@ -88,40 +88,98 @@ body {
   margin: 10rem;
   font-family: Lexend Deca;
   font-size: 15px;
+  max-width: 1080px;
 }
-h2 {
+h1 {
   color: hsl(0, 0%, 95%);
+  padding: 1rem;
 }
 p {
-  color: hsla(0, 0%, 100%, 0.75)
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 1rem;
+  padding-bottom: 5rem;
+}
+.img {
+  width: 5rem;
 }
 .left {
   background-color: #e28525;
   padding: 2rem;
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+ 
 }
 .middle {
   background-color: #016972;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
 }
 .right {
   background-color:#00403f;
   padding: 2rem;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+.button {
+  cursor: pointer;
 }
 .button1 {
   background-color: white;
   color: #e28525;
-  border-radius: 16px;
+  border-radius: 20px;
   text-align: center;
+  padding: .5rem;
+  width: 10rem;
+  margin-left: 3rem; 
+}
+.button1:hover {
+  background-color: #e28525;
+  color: white;
+  border: 1px solid white;
 }
 .button2 {
   background-color: white;
   color: #016972;
-  border-radius: 16px;
+  border-radius: 20px;
   text-align: center;
+  padding: .5rem;
+  width: 10rem;
+  margin-left: 3rem;
+}
+.button2:hover {
+  background-color: #016972;
+  color: white;
+  border: 1px solid white;
 }
 .button3 {
   background-color: white;
   color: #00403f;
-  border-radius: 16px;
+  border-radius: 20px;
   text-align: center;
+  padding: .5rem;
+  width: 10rem;
+  margin-left: 3rem;
+}
+.button3:hover {
+  background-color: #00403f;
+  color: white;
+  border: 1px solid white;
+}
+@media(max-width: 850px){
+  .flex-container{
+    flex-direction: column;
+  }
+  .left{
+    border-radius: 10px 10px 0px 0px;
+  }
+  .right {
+    border-radius: 0px 0px 10px 10px;
+  }
+  
 }
